@@ -1,0 +1,89 @@
+html{
+    background: linear-gradient(black, white)
+}
+
+nav {
+    position: absolute;
+    top: 730px;
+    left: 470px;
+    padding-left: 20px;
+}
+
+nav li {
+    display: inline;
+    height: 20px;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-size: 26px;
+    margin: 100 12 50px;
+    text-decoration:none;   
+    color:rgb(161, 42, 42);
+    font-style: bold;
+    transition: 0.30s;                  
+}
+
+nav a:hover{
+    font-size: 28px;
+    color: salmon;
+}
+
+
+ p { 
+    margin-left: 510px;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 32px;
+    color: salmon;
+    transition: 1s;
+}
+
+
+.start {
+    color: rgb(180, 76, 65) ;
+    margin-left: 570.5px;
+    margin-top: 270px;
+    display: inline-block;
+    font-size: 90px;
+    border: 6px rgb(172, 69, 69) solid;
+    border-radius: 20px;
+    transition: 1s;
+    text-decoration: none;
+    position: absolute;
+    box-shadow: 6px 3px 3px rgb(0, 0, 0);
+}
+
+.start:hover {  
+    color: rgb(206, 72, 57);
+    font-size: 95px;
+    transition: 1s;
+    border-color: rgb(211, 86, 72);
+    box-shadow: 6px 3px 2px rgb(0, 0, 0);
+    
+}
+
+.square {
+
+    width: 80px;
+    height: 90px;
+    transform: translate(-250px, 400px);
+    transition: 1s;
+    position: relative;
+    
+}
+
+.square:hover{
+    width: 90px;
+    height: 100px;
+    transition: 1s;
+    transform: translate(-260px, 400px);
+    color: salmon;
+}
+
+.centro{
+    display: flex;
+    align-items: center;
+}
+
+
